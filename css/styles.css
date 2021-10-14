@@ -1,11 +1,36 @@
 body {
     background-color:#BDBDBD;
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
 }
 
 .navbar-logo {
     height: 60px;
 }
 
+.logo {
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .card {
     margin: 40px;
 }
+
+p {
+    font-size: 18px;
+}
+
+li {
+    font-size: 18px;  
+}
+
+.margin {
+    margin-bottom: 45px;
+}
+
+.homepage-text {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
