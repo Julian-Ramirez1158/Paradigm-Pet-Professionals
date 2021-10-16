@@ -43,6 +43,21 @@ li {
     height: 150px;
 }
 
+.cat-image-container {
+    height: 275px;
+    width: 275px;
+}
+
+.cat-image {
+    height: 275px;
+    width: 275px;
+    border-radius: 50%;
+}
+
+.mobile-cat {
+    display: none;
+}
+
 .slideanim {visibility:hidden;}
 .slide {
   /* The name of the animation */
@@ -75,6 +90,17 @@ li {
     opacity: 1;
     -webkit-transform: translateY(0%);
   }
+}
+
+@media screen and (max-width: 1275px) {
+    .mobile-cat {
+        display: block;
+    }
+
+    .desktop-cat {
+        display: none;
+    }
+
 }
 
 
