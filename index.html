@@ -126,57 +126,58 @@
             <form class="row g-3">
 
                 <div class="col-md-6">
-                    <label for="inputFirstName" class="form-label">First Name</label>
-                    <input type="text" class="form-control" placeholder="First name" aria-label="First name" id="inputFirstName">
-                </div>
-                <div class="col-md-6">
-                    <label for="inputLastName" class="form-label">Last Name</label>
-                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" id="inputLastName">
-                </div>
-
-                <div class="col-12">
-                    <label for="inputAddress" class="form-label">Address</label>
-                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                </div>
-
-                <div class="col-12">
-                    <label for="inputAddress2" class="form-label">Address 2</label>
-                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    <label for="inputFirstName" class="form-label">Owner First Name</label>
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name" id="inputFirstName" required>
                 </div>
 
                 <div class="col-md-6">
-                    <label for="inputCity" class="form-label">City</label>
-                    <input type="text" class="form-control" id="inputCity">
+                    <label for="inputLastName" class="form-label"> Owner Last Name</label>
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" id="inputLastName" required>
                 </div>
 
-                <div class="col-md-4">
-                    <label for="inputState" class="form-label">State</label>
-                    <select id="inputState" class="form-select">
-                        <option selected>Choose...</option>
-                        <option>...</option>
+                <div class="col-md-6">
+                    <label for="inputEmail" class="form-label">Email</label>
+                    <input type="email" class="form-control" placeholder="user@gmail.com" aria-label="Email" id="inputEmail" required>
+                </div>
+
+                <div class="col-md-6">
+                    <label for="inputPhoneNumber" class="form-label">Phone Number</label>
+                    <input type="tel" class="form-control" placeholder="(555)555-5555" aria-label="Phone Number" id="inputPhoneNumber" required>
+                </div>
+
+                <div class="col-12">
+                    <label for="TimeZone" class="form-label">TimeZone</label>
+                    <select class="form-select" aria-label="Default select example" id="TimeZone">
+                        <option selected>Select</option>
+                        <option value="1">Pacific Time (PT)</option>
+                        <option value="2">Mountain Time (MT)</option>
+                        <option value="3">Central Time (CT)</option>
+                        <option value="4">Eastern Time (ET)</option>
+                      </select>
+                </div>
+
+                <div class="col-12">
+                    <label for="inputPetName" class="form-label">Pet Name</label>
+                    <input type="text" class="form-control" placeholder="Kelso" aria-label="First name" id="inputPetName" required>
+                </div>
+
+                <div class="col-12">
+                    <label for="inputPetType" class="form-label">Pet Type</label>
+                    <select class="form-select" aria-label="Default select example" id="inputPetType">
+                        <option selected>Select</option>
+                        <option value="1">Cat</option>
+                        <option value="2">Dog</option>
+                        <option value="3">Fish</option>
                     </select>
                 </div>
 
-                <div class="col-md-2">
-                    <label for="inputZip" class="form-label">Zip</label>
-                    <input type="text" class="form-control" id="inputZip">
-                </div>
 
-                <div class="col-12">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                            Check me out
-                        </label>
-                    </div>
-                </div>
-
-                <div class="col-12">
+                <div class="col-12" style="margin-top: 40px;">
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </div>
+
             </form>
         </div>
-
     </div>
 
     
