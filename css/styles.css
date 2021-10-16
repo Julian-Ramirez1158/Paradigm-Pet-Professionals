@@ -22,14 +22,6 @@ body {
     height: 270px;
 }
 
-p {
-    font-size: 18px;
-}
-
-li {
-    font-size: 18px;  
-}
-
 .margin {
     margin-bottom: 45px;
 }
@@ -43,18 +35,18 @@ li {
     height: 150px;
 }
 
-.cat-image-container {
+.pet-image-container {
     height: 275px;
     width: 275px;
 }
 
-.cat-image {
+.pet-image {
     height: 275px;
     width: 275px;
     border-radius: 50%;
 }
 
-.mobile-cat {
+.mobile-pet {
     display: none;
 }
 
@@ -93,11 +85,11 @@ li {
 }
 
 @media screen and (max-width: 1275px) {
-    .mobile-cat {
+    .mobile-pet {
         display: block;
     }
 
-    .desktop-cat {
+    .desktop-pet {
         display: none;
     }
 
