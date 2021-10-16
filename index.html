@@ -147,8 +147,8 @@
 
                 <div class="col-12">
                     <label for="TimeZone" class="form-label">TimeZone</label>
-                    <select class="form-select" aria-label="Default select example" id="TimeZone">
-                        <option selected>Select</option>
+                    <select class="form-select" aria-label="Default select example" id="TimeZone" required>
+                        <option value="" disabled selected>Select</option>
                         <option value="1">Pacific Time (PT)</option>
                         <option value="2">Mountain Time (MT)</option>
                         <option value="3">Central Time (CT)</option>
@@ -163,12 +163,18 @@
 
                 <div class="col-12">
                     <label for="inputPetType" class="form-label">Pet Type</label>
-                    <select class="form-select" aria-label="Default select example" id="inputPetType">
-                        <option selected>Select</option>
+                    <select class="form-select" aria-label="Default select example" id="inputPetType" required>
+                        <option value="" disabled selected>Select</option>
                         <option value="1">Cat</option>
                         <option value="2">Dog</option>
                         <option value="3">Fish</option>
                     </select>
+                </div>
+
+                <div class="col-12">
+                    <label for="customRange2" class="form-label">Age (years)</label>
+                    <input type="range" class="form-range" min="0" max="50" id="customRange2" onInput="$('#rangeval').html($(this).val())" required>
+                    <span id="rangeval">0<!-- Default value --></span>
                 </div>
 
 
