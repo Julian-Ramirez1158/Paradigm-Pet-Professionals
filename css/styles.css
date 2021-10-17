@@ -4,6 +4,14 @@ body {
     line-height: 1.8;
 }
 
+p {
+    margin: 30px;
+}
+
+h2 {
+    margin: 30px;
+}
+
 .navbar-logo {
     height: 60px;
 }
@@ -32,6 +40,10 @@ body {
   }
 
 .about-us-brand {
+    height: 200px;
+}
+
+.about-us-logo {
     height: 150px;
 }
 
