@@ -2,6 +2,7 @@ body {
     background-color:#BDBDBD;
     font: 20px Montserrat, sans-serif;
     line-height: 1.8;
+    min-width: 450px;
 }
 
 p {
@@ -94,6 +95,12 @@ h2 {
     opacity: 1;
     -webkit-transform: translateY(0%);
   }
+}
+
+@media screen and (max-width: 976px) {
+    .logo-banner {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 1275px) {
